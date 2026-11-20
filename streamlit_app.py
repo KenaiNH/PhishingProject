@@ -3,7 +3,7 @@ from pathlib import Path
 
 import streamlit as st
 
-folder = Path(__file__).resolve().parent / "model_assets"
+folder = Path(__file__).resolve().parent
 
 
 @st.cache_resource
